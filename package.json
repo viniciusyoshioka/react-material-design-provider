@@ -40,7 +40,11 @@
     "peerDependencies": {
         "react": "*"
     },
+    "dependencies": {
+        "color": "^4.2.3"
+    },
     "devDependencies": {
+        "@types/color": "^3.0.6",
         "@types/react": "^18.2.58",
         "@typescript-eslint/eslint-plugin": "^7.0.2",
         "@typescript-eslint/parser": "^7.0.2",
