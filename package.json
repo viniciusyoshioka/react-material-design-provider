@@ -1,7 +1,7 @@
 {
     "name": "react-material-design-provider",
     "description": "Unofficial implementation of Material Design 3 theme provider for React",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "license": "MIT",
     "main": "lib/commonjs/index",
     "module": "lib/module/index",
