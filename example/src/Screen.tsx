@@ -3,6 +3,8 @@ import { View, ViewProps, ViewStyle } from "react-native"
 import { FAB } from "react-native-paper"
 import { useSafeAreaInsets } from "react-native-safe-area-context"
 
+import { Card } from "./Card"
+
 
 export interface ScreenProps extends ViewProps {
     toggleDarkTheme: () => void
@@ -26,7 +28,7 @@ export function Screen(props: ScreenProps) {
 
     return (
         <View {...props} style={[screenStyle, props.style]}>
-            {props.children}
+            <Card />
 
             <FAB
                 icon={"brightness-6"}
