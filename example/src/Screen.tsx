@@ -1,13 +1,18 @@
 import { useMaterialTheme } from "react-material-design-provider"
 import { View, ViewProps, ViewStyle } from "react-native"
+import { FAB } from "react-native-paper"
+import { useSafeAreaInsets } from "react-native-safe-area-context"
 
 
-export interface ScreenProps extends ViewProps {}
+export interface ScreenProps extends ViewProps {
+    toggleDarkTheme: () => void
+}
 
 
 export function Screen(props: ScreenProps) {
 
 
+    const safeAreaInsets = useSafeAreaInsets()
     const { colors } = useMaterialTheme()
 
 
@@ -22,6 +27,16 @@ export function Screen(props: ScreenProps) {
     return (
         <View {...props} style={[screenStyle, props.style]}>
             {props.children}
+
+            <FAB
+                icon={"brightness-6"}
+                onPress={props.toggleDarkTheme}
+                style={{
+                    position: "absolute",
+                    right: safeAreaInsets.right + 16,
+                    bottom: safeAreaInsets.bottom + 16,
+                }}
+            />
         </View>
     )
 }

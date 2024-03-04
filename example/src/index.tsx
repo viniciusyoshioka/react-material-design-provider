@@ -15,10 +15,14 @@ export function App() {
     const [isDark, setIsDark] = useState(false)
 
 
+    function toggleDarkTheme() {
+        setIsDark(current => !current)
+    }
+
     return (
         <MaterialProvider theme={isDark ? MaterialDarkTheme : MaterialLightTheme}>
             <PaperProvider theme={isDark ? MD3DarkTheme : MD3LightTheme}>
-                <Screen />
+                <Screen toggleDarkTheme={toggleDarkTheme} />
             </PaperProvider>
         </MaterialProvider>
     )
