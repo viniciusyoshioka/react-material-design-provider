@@ -1,7 +1,7 @@
 # react-material-design-provider
 
 Unofficial implementation of [Material Design 3](https://m3.material.io/)
-for React.
+theme provider for React.
 
 This library does not implement components. The ideia is to implement
 the design system of Material Design (typography, colors, palette, etc.)
