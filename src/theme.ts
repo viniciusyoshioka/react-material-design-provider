@@ -1,10 +1,12 @@
 import {
     Colors,
+    Elevation,
     Palette,
     Shape,
     State,
     Typography,
     darkColors,
+    elevation,
     lightColors,
     palette,
     shape,
@@ -14,6 +16,7 @@ import {
 
 
 export type MaterialTheme = {
+    elevation: Elevation
     palette: Palette
     shape: Shape
     state: State
@@ -23,6 +26,7 @@ export type MaterialTheme = {
 
 
 export const MaterialLightTheme: MaterialTheme = {
+    elevation,
     palette,
     shape,
     state,
@@ -31,6 +35,7 @@ export const MaterialLightTheme: MaterialTheme = {
 }
 
 export const MaterialDarkTheme: MaterialTheme = {
+    elevation,
     palette,
     shape,
     state,
