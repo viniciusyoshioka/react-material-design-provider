@@ -16,6 +16,7 @@ import {
 
 
 export type MaterialTheme = {
+    isDark: boolean
     elevation: Elevation
     palette: Palette
     shape: Shape
@@ -26,19 +27,21 @@ export type MaterialTheme = {
 
 
 export const MaterialLightTheme: MaterialTheme = {
+    isDark: false,
+    colors: lightColors,
     elevation,
     palette,
     shape,
     state,
     typography,
-    colors: lightColors,
 }
 
 export const MaterialDarkTheme: MaterialTheme = {
+    isDark: true,
+    colors: darkColors,
     elevation,
     palette,
     shape,
     state,
     typography,
-    colors: darkColors,
 }
