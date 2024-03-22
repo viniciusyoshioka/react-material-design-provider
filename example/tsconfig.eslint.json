@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "src",
+    ".eslintrc.js",
+    "babel.config.js",
+    "index.js",
+    "metro.config.js",
+  ],
+}
