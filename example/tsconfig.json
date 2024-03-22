@@ -1,8 +1,10 @@
 {
-    "extends": "@vinicius1313/tsconfig/tsconfig.json",
-    "compilerOptions": {
-        "paths": {
-            "react-material-design-provider": ["../src/index"]
-        }
+  "extends": "@vinicius1313/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "react-material-design-provider": [
+        "../src/index"
+      ]
     }
+  }
 }
