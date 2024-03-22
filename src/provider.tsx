@@ -7,19 +7,19 @@ const MaterialContext = createContext(MaterialLightTheme)
 
 
 export interface MaterialProviderProps extends PropsWithChildren {
-    theme: MaterialTheme
+  theme: MaterialTheme
 }
 
 export function MaterialProvider(props: MaterialProviderProps) {
-    return (
-        <MaterialContext.Provider
-            value={props.theme}
-            children={props.children}
-        />
-    )
+  return (
+    <MaterialContext.Provider
+      value={props.theme}
+      children={props.children}
+    />
+  )
 }
 
 
 export function useMaterialTheme() {
-    return useContext(MaterialContext)
+  return useContext(MaterialContext)
 }
