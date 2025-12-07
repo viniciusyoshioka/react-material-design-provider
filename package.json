@@ -49,16 +49,15 @@
     "color": "^4.2.3"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^1.7.0",
+    "@stylistic/eslint-plugin": "^5.6.1",
     "@types/color": "^3.0.6",
     "@types/react": "^18.2.58",
-    "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "@typescript-eslint/parser": "^7.3.1",
-    "@vinicius1313/eslint-config": "^1.2.2",
+    "@vinicius1313/eslint-config": "^2.1.0",
     "@vinicius1313/tsconfig": "^2.0.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.39.1",
     "react-native-builder-bob": "^0.23.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.1"
   },
   "react-native-builder-bob": {
     "source": "src",
