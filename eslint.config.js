@@ -10,5 +10,8 @@ export default [
         tsconfigRootDir: import.meta.dirname,
       },
     },
+    ignores: [
+      'example/**',
+    ],
   },
 ]
