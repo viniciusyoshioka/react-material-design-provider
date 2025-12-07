@@ -11,7 +11,11 @@ and provide them to the application.
 
 ```sh
 npm install react-material-design-provider
-# or
+```
+
+or
+
+```sh
 yarn add react-material-design-provider
 ```
 
