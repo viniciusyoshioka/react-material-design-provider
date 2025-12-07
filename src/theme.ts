@@ -1,10 +1,10 @@
-import {
-  Colors,
+import type { Colors,
   Elevation,
   Palette,
   Shape,
   State,
-  Typography,
+  Typography } from './material-design'
+import {
   darkColors,
   elevation,
   lightColors,
@@ -12,7 +12,7 @@ import {
   shape,
   state,
   typography,
-} from "./material-design"
+} from './material-design'
 
 
 export type MaterialTheme = {

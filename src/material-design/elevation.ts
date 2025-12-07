@@ -1,6 +1,6 @@
 
-export type ElevationKey = "level0" | "level1" | "level2" | "level3"
-  | "level4" | "level5"
+export type ElevationKey = 'level0' | 'level1' | 'level2' | 'level3'
+  | 'level4' | 'level5'
 
 export type Elevation = {
   [key in ElevationKey]: number

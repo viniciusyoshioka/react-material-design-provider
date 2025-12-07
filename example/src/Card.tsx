@@ -1,8 +1,9 @@
-import color from "color"
-import { useMaterialTheme } from "react-material-design-provider"
-import { Pressable, View, ViewStyle } from "react-native"
-import { Text } from "react-native-paper"
-import Icon from "react-native-vector-icons/MaterialCommunityIcons"
+import color from 'color'
+import { useMaterialTheme } from 'react-material-design-provider'
+import type { ViewStyle } from 'react-native'
+import { Pressable, View } from 'react-native'
+import { Text } from 'react-native-paper'
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 
 export interface CardProps {}
@@ -21,7 +22,7 @@ export function Card() {
 
   const cardWrapper: ViewStyle = {
     borderRadius: shape.medium,
-    overflow: "hidden",
+    overflow: 'hidden',
   }
 
   const containerStyle: ViewStyle = {
@@ -35,16 +36,16 @@ export function Card() {
   }
 
   const userContainerStyle: ViewStyle = {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "flex-start",
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
     gap: 8,
   }
 
   const titleContainerStyle: ViewStyle = {
     flex: 1,
-    alignItems: "flex-start",
-    justifyContent: "center",
+    alignItems: 'flex-start',
+    justifyContent: 'center',
   }
 
   const contentContainerStyle: ViewStyle = {
@@ -60,21 +61,21 @@ export function Card() {
       >
         <View style={userContainerStyle}>
           <Icon
-            name={"account-circle-outline"}
+            name={'account-circle-outline'}
             size={40}
             color={colors.onSurfaceVariant}
           />
 
           <View style={titleContainerStyle}>
             <Text
-              variant={"titleSmall"}
+              variant={'titleSmall'}
               style={{ color: colors.onSurface }}
             >
               Title
             </Text>
 
             <Text
-              variant={"titleSmall"}
+              variant={'titleSmall'}
               style={{ color: colors.onSurfaceVariant }}
             >
               Subtitle
@@ -84,14 +85,14 @@ export function Card() {
 
         <View style={contentContainerStyle}>
           <Text
-            variant={"titleLarge"}
+            variant={'titleLarge'}
             style={{ color: colors.onSurface }}
           >
             Another title
           </Text>
 
           <Text
-            variant={"bodyMedium"}
+            variant={'bodyMedium'}
             style={{ color: colors.onSurface }}
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

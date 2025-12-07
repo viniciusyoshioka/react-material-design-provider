@@ -1,6 +1,6 @@
 
-export type ShapeKey = "none" | "extraSmall" | "small" | "medium"
-  | "large" | "extraLarge" | "full"
+export type ShapeKey = 'none' | 'extraSmall' | 'small' | 'medium'
+  | 'large' | 'extraLarge' | 'full'
 
 export type Shape = {
   [key in ShapeKey]: number

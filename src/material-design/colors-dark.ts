@@ -1,8 +1,8 @@
-import Color from "color"
+import Color from 'color'
 
-import { Colors } from "./colors-type"
-import { palette } from "./palette"
-import { state } from "./state"
+import type { Colors } from './colors-type'
+import { palette } from './palette'
+import { state } from './state'
 
 
 export const darkColors: Colors = {

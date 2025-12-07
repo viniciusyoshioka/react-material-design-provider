@@ -1,12 +1,12 @@
-import { useState } from "react"
+import { useState } from 'react'
 import {
   MaterialDarkTheme,
   MaterialLightTheme,
   MaterialProvider,
-} from "react-material-design-provider"
-import { MD3DarkTheme, MD3LightTheme, PaperProvider } from "react-native-paper"
+} from 'react-material-design-provider'
+import { MD3DarkTheme, MD3LightTheme, PaperProvider } from 'react-native-paper'
 
-import { Screen } from "./Screen"
+import { Screen } from './Screen'
 
 
 export function App() {

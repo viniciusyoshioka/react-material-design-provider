@@ -1,5 +1,5 @@
 
-export type StateKey = "disabled" | "hover" | "focus" | "press" | "drag"
+export type StateKey = 'disabled' | 'hover' | 'focus' | 'press' | 'drag'
 
 export type State = {
   [key in StateKey]: number

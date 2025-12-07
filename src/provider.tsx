@@ -1,6 +1,8 @@
-import { PropsWithChildren, createContext, useContext } from "react"
+import type { PropsWithChildren } from 'react'
+import { createContext, useContext } from 'react'
 
-import { MaterialLightTheme, MaterialTheme } from "./theme"
+import type { MaterialTheme } from './theme'
+import { MaterialLightTheme } from './theme'
 
 
 const MaterialContext = createContext(MaterialLightTheme)

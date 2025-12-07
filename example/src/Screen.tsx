@@ -1,9 +1,10 @@
-import { useMaterialTheme } from "react-material-design-provider"
-import { View, ViewProps, ViewStyle } from "react-native"
-import { FAB } from "react-native-paper"
-import { useSafeAreaInsets } from "react-native-safe-area-context"
+import { useMaterialTheme } from 'react-material-design-provider'
+import type { ViewProps, ViewStyle } from 'react-native'
+import { View } from 'react-native'
+import { FAB } from 'react-native-paper'
+import { useSafeAreaInsets } from 'react-native-safe-area-context'
 
-import { Card } from "./Card"
+import { Card } from './Card'
 
 
 export interface ScreenProps extends ViewProps {
@@ -20,8 +21,8 @@ export function Screen(props: ScreenProps) {
 
   const screenStyle: ViewStyle = {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: 'center',
+    alignItems: 'center',
     backgroundColor: colors.background,
   }
 
@@ -31,10 +32,10 @@ export function Screen(props: ScreenProps) {
       <Card />
 
       <FAB
-        icon={"brightness-6"}
+        icon={'brightness-6'}
         onPress={props.toggleDarkTheme}
         style={{
-          position: "absolute",
+          position: 'absolute',
           right: safeAreaInsets.right + 16,
           bottom: safeAreaInsets.bottom + 16,
         }}
