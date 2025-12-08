@@ -1,9 +1,11 @@
-import type { Colors,
+import type {
+  Colors,
   Elevation,
   Palette,
   Shape,
   State,
-  Typography } from './material-design'
+  Typography,
+} from './material-design/index.ts'
 import {
   darkColors,
   elevation,
@@ -12,7 +14,7 @@ import {
   shape,
   state,
   typography,
-} from './material-design'
+} from './material-design/index.ts'
 
 
 export type MaterialTheme = {

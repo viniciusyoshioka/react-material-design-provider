@@ -1,8 +1,8 @@
 import Color from 'color'
 
-import type { Colors } from './colors-type'
-import { palette } from './palette'
-import { state } from './state'
+import type { Colors } from './colors-type.ts'
+import { palette } from './palette.ts'
+import { state } from './state.ts'
 
 
 export const lightColors: Colors = {
