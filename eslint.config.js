@@ -3,11 +3,6 @@ import { configs } from '@vinicius1313/eslint-config'
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-  {
-    ignores: [
-      'example/**',
-    ],
-  },
   ...configs.recommended,
   {
     languageOptions: {
