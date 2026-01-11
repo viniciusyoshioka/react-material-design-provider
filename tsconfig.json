@@ -5,12 +5,9 @@
         "outDir": "dist"
     },
     "include": [
-        "src/**/*",
-        "./*.js",
-        "./*.ts"
+        "src/**/*"
     ],
     "exclude": [
-        "example",
         "lib",
         "node_modules"
     ]

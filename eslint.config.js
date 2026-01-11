@@ -8,6 +8,11 @@ export default [
     languageOptions: {
       parserOptions: {
         tsconfigRootDir: import.meta.dirname,
+        projectService: {
+          allowDefaultProject: [
+            'eslint.config.js',
+          ],
+        },
       },
     },
   },
