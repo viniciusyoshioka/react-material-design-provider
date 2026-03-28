@@ -42,18 +42,18 @@
         "react": "*"
     },
     "dependencies": {
-        "color": "^4.2.3"
+        "color": "^5.0.3"
     },
     "devDependencies": {
-        "@stylistic/eslint-plugin": "^5.6.1",
-        "@types/color": "^3.0.6",
-        "@types/react": "^18.2.58",
-        "@vinicius1313/eslint-config": "^2.2.0",
+        "@stylistic/eslint-plugin": "^5.10.0",
+        "@types/color": "^4.2.1",
+        "@types/react": "^19.2.14",
+        "@vinicius1313/eslint-config": "^2.2.2",
         "@vinicius1313/tsconfig": "^2.0.0",
-        "eslint": "^9.39.1",
-        "react-native-builder-bob": "^0.23.2",
-        "typescript": "^5.9.3",
-        "typescript-eslint": "^8.48.1"
+        "eslint": "^10.1.0",
+        "react-native-builder-bob": "^0.40.18",
+        "typescript": "^6.0.2",
+        "typescript-eslint": "^8.57.2"
     },
     "react-native-builder-bob": {
         "source": "src",
