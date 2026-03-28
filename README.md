@@ -16,6 +16,12 @@ npm install react-material-design-provider
 or
 
 ```sh
+pnpm add react-material-design-provider
+```
+
+or
+
+```sh
 yarn add react-material-design-provider
 ```
 
