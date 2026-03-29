@@ -28,8 +28,8 @@ importers:
         specifier: ^2.2.2
         version: 2.2.2(@stylistic/eslint-plugin@5.10.0(eslint@10.1.0))(eslint@10.1.0)(typescript-eslint@8.57.2(eslint@10.1.0)(typescript@6.0.2))(typescript@6.0.2)
       '@vinicius1313/tsconfig':
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^3.0.1
+        version: 3.0.1
       eslint:
         specifier: ^10.1.0
         version: 10.1.0
@@ -797,8 +797,8 @@ packages:
       typescript-eslint:
         optional: true
 
-  '@vinicius1313/tsconfig@2.0.0':
-    resolution: {integrity: sha512-8+TsJ3rpqOtoJ6NqioaUgdeqN5UtriPancXzdm/DWyqxZkvdW9z0Xee+xid6MEPNIe70/aBLH9sew6HQyoYLFQ==}
+  '@vinicius1313/tsconfig@3.0.1':
+    resolution: {integrity: sha512-C1EHQByjBW+niKuIE16v9WFARCd89v9Vsz1SEw2FCdAbjEVKnj/l/cvl/oaYgQT8XNnzmGINRurw9Y9EfD0WUA==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -2582,7 +2582,7 @@ snapshots:
       typescript: 6.0.2
       typescript-eslint: 8.57.2(eslint@10.1.0)(typescript@6.0.2)
 
-  '@vinicius1313/tsconfig@2.0.0': {}
+  '@vinicius1313/tsconfig@3.0.1': {}
 
   acorn-jsx@5.3.2(acorn@8.16.0):
     dependencies:
