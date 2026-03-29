@@ -45,6 +45,7 @@
         "color": "^5.0.3"
     },
     "devDependencies": {
+        "@eslint/js": "^10.0.1",
         "@stylistic/eslint-plugin": "^5.10.0",
         "@types/color": "^4.2.1",
         "@types/react": "^19.2.14",
