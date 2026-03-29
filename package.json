@@ -49,7 +49,7 @@
         "@stylistic/eslint-plugin": "^5.10.0",
         "@types/color": "^4.2.1",
         "@types/react": "^19.2.14",
-        "@vinicius1313/eslint-config": "^2.2.2",
+        "@vinicius1313/eslint-config": "^2.3.0",
         "@vinicius1313/tsconfig": "^3.0.1",
         "eslint": "^10.1.0",
         "react-native-builder-bob": "^0.40.18",
